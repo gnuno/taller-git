@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Bienvenidos a la página de Matías!</h1>
+            <p class="lead">Esta es mi página personal, espero que les guste.</p>
+        </div>
+    </div>
+    <!-- Seccion sobre Hyoga -->
+    <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0">Center-aligned media</h5>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                lacinia congue felis in faucibus.</p>
+            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+    </div>
+    <!-- Seccion sobre GNUno -->
+    <div class="media">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">Media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+            lacinia congue felis in faucibus.
+        </div>
+        <img src="..." class="align-self-center mr-3" alt="...">
+    </div>
+    <!-- Seccion sobre Matías -->
+    <div class="media">
+        <img src="..." class="align-self-center mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0">Center-aligned media</h5>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                lacinia congue felis in faucibus.</p>
+            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+    </div> 
+    <div class="container" id="footer">
+    
+    </div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("footer").innerText = "GNUNO " + new Date().getFullYear().toString();
+        }
+    </script>
+</body>
+</html>
