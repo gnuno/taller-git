@@ -1,7 +1,9 @@
 .imagen-media {
     width: 500px;
 }
-
+.contenedor-exterior{
+    background-color: #E9ECEF;
+}
 #footer {
     text-align: center;
 }
