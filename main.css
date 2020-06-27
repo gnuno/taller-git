@@ -3,7 +3,8 @@
 }
 .contenedor-exterior{
     background-color: #E9ECEF;
-    border: 4px solid darkolivegreen;
+    border: 4px solid brown;
+    border-radius: 5px;
 }
 #footer {
     text-align: center;
